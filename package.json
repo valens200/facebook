@@ -1,0 +1,31 @@
+{
+  "name": "facebookbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run":"nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valens200/facebook_backend_clone.git"
+  },
+  "keywords": [
+    "facebook",
+    "backend",
+    "fb"
+  ],
+  "author": "valens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valens200/facebook_backend_clone/issues"
+  },
+  "homepage": "https://github.com/valens200/facebook_backend_clone#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.3.6"
+  }
+}
